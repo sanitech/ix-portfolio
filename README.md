@@ -7,8 +7,7 @@ To download node js
 Open (https://nodejs.org/en/download)
 
 ## Then Got projet exeute this comant
-npm install
-npm start
+### `npm install`
 
 
 ## Available Scripts
