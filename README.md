@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To download node js
 Open (https://nodejs.org/en/download)
 
-## Then Got projet exeute this comant
+## Then Got projet execute this comant
 ### `npm install`
 
 
