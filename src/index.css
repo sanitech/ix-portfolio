@@ -1,13 +1,31 @@
+:root {
+  --primary-color: #a62121;
+  --primary-color-transparent: #ec1414d9;
+  --secondary-color: #ebebeb;
+  --gray: #545454;
+  --primary-text-color: #bc1111;
+  --card-first-color: #3c3c3c;
+  --gray-text: #d9d9d9;
+  --gray-text-transparent: #c3c3c382;
+  --card-second-color: #5351516e;
+  --dark: #000;
+  --light: #fff;
+  --card: #181818;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.App {
+  background-color: #000;
 }

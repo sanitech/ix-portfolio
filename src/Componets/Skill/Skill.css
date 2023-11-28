@@ -1,0 +1,87 @@
+.skill {
+  margin: 50px;
+  color: var(--light);
+}
+
+.skill-heder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.skill-back {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 10em;
+  font-weight: bold;
+  color: var(--gray);
+}
+.skill-header-motto {
+  z-index: 1000;
+  font-size: 2.4em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.skill-header-motto span {
+  background-color: var(--primary-color);
+  padding: 10px 15px;
+}
+
+.skill-container {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.skill-card {
+  background-color: var(--card);
+  padding: 50px 40px;
+}
+
+.skill-card:first-child,
+.skill-card:hover {
+  background-color: var(--primary-color);
+}
+
+.skill-by-icon {
+  background-color: var(--primary-color-transparent);
+  position: relative;
+  padding: 10px 15px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill-counter {
+  position: absolute;
+  top: -20px;
+  left: 5px;
+  font-size: 2em;
+  color: var(--gray-text-transparent);
+  font-weight: bold;
+}
+.skill-by-icon i {
+  font-size: 3.4em;
+}
+
+.skill-title {
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.skill-text {
+  color: var(--gray-text);
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.more-about-skill-btn {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin: 20px 0;
+  margin-bottom: -10px;
+}

@@ -1,0 +1,80 @@
+.discover {
+  margin: 100px 0;
+  display: flex;
+  justify-content: end;
+}
+.discover-container {
+  width: 80%;
+  background: linear-gradient(
+    140deg,
+    var(--card-first-color),
+    var(--card-second-color)
+  );
+  color: var(--secondary-color);
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.aloha {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 11em;
+  font-weight: bold;
+  color: var(--gray);
+  top: 50px;
+}
+.discover-container p,
+.discover-text {
+  z-index: 1000;
+}
+
+.discover-text {
+  padding-top: 50px;
+  font-size: 2.4em;
+  font-weight: bold;
+}
+.discover span {
+  background-color: var(--primary-color);
+  padding: 0 10px;
+}
+.discover-container p {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 1.5em;
+  width: 80%;
+}
+.discover-btn {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: 500;
+  transition: 1s;
+  cursor: pointer;
+  z-index: 100;
+}
+.discover-btn:hover {
+  color: var(--primary-text-color);
+}
+
+.discover-corner {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+}
+
+@media (max-width: 768px) {
+  .aloha {
+    scale: 0.7;
+  }
+  .discover-container {
+    width: 98%;
+    margin: auto;
+    padding: 100px 0;
+  }
+  .discover-container p {
+    width: 100%;
+  }
+}

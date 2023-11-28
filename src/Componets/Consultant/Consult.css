@@ -1,0 +1,99 @@
+.consultant {
+  margin: 100px 0;
+}
+.consult-container {
+  width: 80%;
+  background: linear-gradient(
+    140deg,
+    var(--primary-color),
+    var(--primary-text-color)
+  );
+  color: var(--secondary-color);
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+.consult-header {
+  margin-top: 50px;
+}
+
+.consult-text {
+  font-size: 1.5em;
+}
+.free-consult {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.consult-header p {
+  color: var(--gray-text);
+  font-size: 1em;
+}
+
+.consult-form {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.consult-form input {
+  height: 3rem;
+  background-color: var(--dark);
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  font-size: 1em;
+  color: var(--light);
+  margin-right: 60px;
+  flex: 1;
+}
+
+.free-consult input::placeholder {
+  text-transform: uppercase;
+  color: var(--gray-text);
+}
+.btn-sent {
+  background-color: var(--primary-color);
+  color: var(--light);
+  border: none;
+  outline: none;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 1.3em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .consult-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: aliceblue !important;
+  }
+  .consult-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .consult-header p {
+    width: 98%;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+  }
+  .consult-container .corner {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .consult-form input {
+    flex-grow: 1;
+  }
+}
