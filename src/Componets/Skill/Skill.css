@@ -24,7 +24,8 @@
   margin-top: 20px;
 }
 .skill-header-motto span {
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
+  background: linear-gradient(90deg, #ff0000, rgba(255, 3, 3, 0.142));
   padding: 10px 15px;
 }
 
@@ -84,4 +85,13 @@
   font-size: 1.2em;
   margin: 20px 0;
   margin-bottom: -10px;
+}
+@media (max-width: 428px) {
+  .skill-back {
+    scale: 0.7;
+  }
+  .skill-header-motto {
+    font-size: 1.9em;
+    white-space: nowrap;
+  }
 }

@@ -33,6 +33,8 @@
 .consult-form {
   position: absolute;
   bottom: 10px;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -93,7 +95,19 @@
     bottom: 0;
     width: 100%;
   }
-  .consult-form input {
-    flex-grow: 1;
+}
+@media (max-width: 428px) {
+  .btn-sent {
+    font-size: 1em;
+    white-space: nowrap;
+  }
+  .consult-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .free-consult {
+    white-space: nowrap;
+    font-size: 1.5em;
   }
 }

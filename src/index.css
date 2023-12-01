@@ -10,7 +10,7 @@
   --card-second-color: #5351516e;
   --dark: #000;
   --light: #fff;
-  --card: #181818;
+  --card: #282828;
 }
 body {
   margin: 0;
@@ -19,6 +19,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
 }
 
 code {
@@ -27,5 +28,4 @@ code {
 }
 
 .App {
-  background-color: #181818;
 }

@@ -78,3 +78,19 @@
     width: 100%;
   }
 }
+@media (max-width: 428px) {
+  .aloha {
+    scale: 0.5;
+    top: 0;
+  }
+  .discover-text {
+    font-size: 1.7em;
+  }
+  .discover-container {
+    padding: 50px 0px;
+  }
+  .discover-container p {
+    font-size: 1em;
+    padding: inherit 15px;
+  }
+}

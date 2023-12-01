@@ -48,7 +48,7 @@
   scale: 1.1;
 }
 
-@media (max-width: 988px) {
+@media (max-width: 1024px) {
   .service-sub-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -57,6 +57,7 @@
     background-color: #595959;
   }
 }
+
 @media (max-width: 768px) {
   .service-sub-grid {
     grid-template-columns: repeat(1, 1fr);
