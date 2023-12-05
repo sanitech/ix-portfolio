@@ -3,6 +3,7 @@
   --primary-color-transparent: #ec1414d9;
   --secondary-color: #ebebeb;
   --gray: #545454;
+  --grayscale: #5454547c;
   --primary-text-color: #bc1111;
   --card-first-color: #3c3c3c;
   --gray-text: #d9d9d9;
@@ -12,6 +13,9 @@
   --light: #fff;
   --card: #282828;
 }
+* {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -20,6 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000;
+  transition: all 0.4s ease-in-out;
 }
 
 code {

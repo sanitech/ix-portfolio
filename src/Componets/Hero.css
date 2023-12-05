@@ -56,6 +56,7 @@
   background-color: var(--primary-color);
   font-weight: 500;
   white-space: nowrap;
+  animation: creativeAni 3s infinite;
 }
 .hero-section-explore .or {
   position: absolute;
@@ -77,6 +78,7 @@
 .hero-section-explore .explore {
   background-color: var(--gray);
   justify-content: start;
+  animation: exploreAni 3s infinite;
 }
 .hero-footer {
   position: absolute;
@@ -110,6 +112,43 @@ a {
 .hero-footer ul li.active {
   color: var(--primary-text-color);
 }
+
+@keyframes exploreAni {
+  25% {
+    background-color: #545454;
+  }
+
+  50% {
+    background-color: #54545465;
+  }
+
+  75% {
+    background-color: #545454cc;
+  }
+
+  100% {
+    background-color: #545454;
+  }
+}
+
+@keyframes creativeAni {
+  25% {
+    background-color: #ec1414d9;
+  }
+
+  50% {
+    background-color: #ec141430;
+  }
+
+  /* 75% {
+    background-color: #ec1414bb;
+  } */
+
+  100% {
+    background-color: #ec1414ea;
+  }
+}
+
 @media (max-width: 1024px) {
   .hero-section-text {
     scale: 0.9;

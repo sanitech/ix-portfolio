@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Hero.css";
-function Hero() {
+function Hero({ explore }) {
   return (
     <div className="hero-section">
       <div className="horizontal-line"></div>
@@ -10,9 +10,27 @@ function Hero() {
         <p>passionate</p>
       </div>
       <div className="hero-section-explore">
-        <div className="creative">Let's creative</div>
+        <a
+          href="#"
+          className="creative"
+          onClick={() => {
+            explore();
+            window.scroll(1000, 0);
+          }}
+        >
+          Let's creative
+        </a>
         <div className="or">Or</div>
-        <div className="explore">explore now</div>
+        <a
+          href="#explore"
+          className="explore"
+          onClick={() => {
+            explore();
+            window.scroll(1000, 0);
+          }}
+        >
+          explore now
+        </a>
       </div>
 
       <div className="hero-footer">

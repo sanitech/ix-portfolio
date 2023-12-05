@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Consultant from "./Componets/Consultant/Consultant";
 import Discover from "./Componets/Discover/Discover";
 import Hero from "./Componets/Hero";
@@ -6,14 +7,24 @@ import Service from "./Componets/Service/Service";
 import Skill from "./Componets/Skill/Skill";
 
 function App() {
+  const [exploreStatus, setExploreStatus] = useState(false);
+
+  const exploreHandler = () => {
+    setExploreStatus(!exploreStatus);
+  };
   return (
     <div className="App">
       <Navbar />
-      <Hero />
-      <Service />
-      <Discover />
-      <Skill />
-      <Consultant />
+      <Hero explore={exploreHandler} />
+
+      {exploreStatus && (
+        <>
+          <Service />
+          <Discover />
+          <Skill />
+          <Consultant />
+        </>
+      )}
     </div>
   );
 }

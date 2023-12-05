@@ -22,7 +22,6 @@ function Consultant() {
           </div>
         </div>
       </div>
-      Consultant
     </div>
   );
 }
