@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Consultant from "./Componets/Consultant/Consultant";
 import Discover from "./Componets/Discover/Discover";
-import Hero from "./Componets/Hero";
-import Navbar from "./Componets/Navbar";
+import Hero from "./Componets/hero/Hero";
+import Navbar from "./Componets/Navbar/Navbar";
 import Service from "./Componets/Service/Service";
 import Skill from "./Componets/Skill/Skill";
 
