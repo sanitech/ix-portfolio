@@ -13,28 +13,29 @@ function Service() {
       <div className="service-sub-grid">
         {service.map((data) => {
           return data.hardware.map((hardware, key) => {
-            return <ServiceCard data={hardware} key={++i} />;
+            return <ServiceCard data={hardware} keys={++i} />;
           });
         })}
       </div>
       <div className="service-sub-grid">
         {service.map((data) => {
           return data.software.map((hardware, key) => {
-            return <ServiceCard data={hardware} key={++i} />;
+            console.log(key + ": " + hardware);
+            return <ServiceCard data={hardware} keys={++i} />;
           });
         })}
       </div>
       <div className="service-sub-grid">
         {service.map((data) => {
           return data.graphics.map((hardware, key) => {
-            return <ServiceCard data={hardware} key={++i} />;
+            return <ServiceCard data={hardware} keys={++i} />;
           });
         })}
       </div>
       <div className="service-sub-grid">
         {service.map((data) => {
           return data.marketing.map((hardware, key) => {
-            return <ServiceCard data={hardware} key={++i} />;
+            return <ServiceCard data={hardware} keys={++i} />;
           });
         })}
       </div>

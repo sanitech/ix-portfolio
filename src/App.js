@@ -5,6 +5,8 @@ import Hero from "./Componets/hero/Hero";
 import Navbar from "./Componets/Navbar/Navbar";
 import Service from "./Componets/Service/Service";
 import Skill from "./Componets/Skill/Skill";
+import Footer from "./Componets/Footer/Footer";
+import Projects from "./Componets/Projects/Project";
 
 function App() {
   const [exploreStatus, setExploreStatus] = useState(false);
@@ -21,8 +23,10 @@ function App() {
         <>
           <Service />
           <Discover />
+          <Projects />
           <Skill />
           <Consultant />
+          <Footer />
         </>
       )}
     </div>

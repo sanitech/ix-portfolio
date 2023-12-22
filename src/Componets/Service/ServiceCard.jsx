@@ -1,11 +1,11 @@
 import React from "react";
 
-function ServiceCard({ data, key }) {
-  console.log("key", key);
+function ServiceCard({ keys, data }) {
+  console.log("key", keys);
   return (
     <div className="service-card">
       <div className="service-text">{data}</div>
-      <div className="service-number">0{key}.</div>
+      <div className="service-number">{keys > 10 ? keys : `0${keys}`}.</div>
     </div>
   );
 }

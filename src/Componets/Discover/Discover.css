@@ -39,6 +39,7 @@
 .discover span {
   background-color: var(--primary-color);
   padding: 0 10px;
+  background: linear-gradient(90deg, #ff0000, rgba(255, 3, 3, 0.142));
 }
 .discover-container p {
   padding: 50px 0;
