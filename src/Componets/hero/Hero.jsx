@@ -6,7 +6,7 @@ function Hero({ explore }) {
       <div className="horizontal-line"></div>
 
       <div className="hero-section-text">
-        <p>Code Your Dreams, Shape Your Future</p>
+        <p>we Code Your Dreams to Shape Your Future</p>
         <p>passionate</p>
       </div>
       <div className="hero-section-explore">

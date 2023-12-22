@@ -32,7 +32,7 @@ function Footer() {
               Adama - Head Office, <br />
               <span>EMAIL US:</span> ixsolutions01@gmail.com
               <br />
-              <span>CALL US:</span> 0922111111111 <br />
+              <span>CALL US:</span> 0910068212 / 0922543579 / 0962018602 <br />
             </p>
           </div>
         </div>
